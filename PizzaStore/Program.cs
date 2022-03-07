@@ -6,7 +6,8 @@ namespace PizzaStore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Store start = new Store();
+            start.Start();
         }
     }
 }
